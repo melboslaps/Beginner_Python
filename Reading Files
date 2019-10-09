@@ -1,0 +1,15 @@
+#r = read
+#w = write
+#a = append
+#r+ = read and write
+# Make sure I have a txt file named employees.txt to read to
+
+
+employee_file = open("employees.txt", "r")
+
+
+# print(employee_file.read())
+print(employee_file.readlines()[2])
+
+
+employee_file.close()
