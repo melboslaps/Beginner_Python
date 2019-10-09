@@ -1,0 +1,12 @@
+# Classes can define your own data types
+# object is actual a student that we are representing in our program
+# object is an instance of a class (you can have multiple object in a class
+#This file goes with Classes and Objects Student
+
+from Student import Student
+
+student1 = Student("John", "Accounting", 3.2, False)
+student2 = Student("Pam", "Business", 3.5, True)
+
+print(student1.major)
+print(student2.gpa)
