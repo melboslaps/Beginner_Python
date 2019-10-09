@@ -1,0 +1,22 @@
+# Jan -> Januray
+# Mar -> March
+
+month_conversions = {
+    "Jan": "January",
+    "Feb": "February",
+    "Mar": "March",
+    1: "April",
+    "May": "May",
+    "Jun": "June",
+    2: "July",
+    "Aug": "August",
+    "Sep": "September",
+    "Oct": "October",
+    "Nov": "November",
+    "Dec": "December",
+}
+
+print(month_conversions.get("Aug"))
+print(month_conversions.get(1))
+# print(month_conversions.get("Nov", "Not a valid key"))
+# print(month_conversions["Nov"])
