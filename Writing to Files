@@ -1,0 +1,11 @@
+#a = append
+# if you use w it overwrites the entire file instead of adding to it
+#can also write to an HTML page
+
+# employee_file = open("index.html", "w")
+employee_file = open("employees.txt", "a")
+
+# employee_file.write("<p> This is HTML </p>)
+employee_file.write("\nKaren - Janitor")
+
+employee_file.close()
