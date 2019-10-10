@@ -1,0 +1,7 @@
+# This question class stores everything you need about a question (prompt and answer)
+# This goes with Multiple Choice Quiz
+
+class Question:
+    def __init__(self, prompt, answer):
+        self.prompt = prompt
+        self.answer = answer
